@@ -1,0 +1,92 @@
+.exam-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+.subject-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.subject-table th, .subject-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.subject-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.subject-table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4c4c;
+  margin-top: 15px;
+}
+
+.question {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.back-button {
+  background-color: #ff4c4c;
+}
+
+.back-button:hover {
+  background-color: #c82333;
+}
+.webcam-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 150px;  /* Adjust size as needed */
+  height: 120px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  background: black;
+  z-index: 1000;
+}
+
+.webcam-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

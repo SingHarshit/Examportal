@@ -1,0 +1,28 @@
+.history-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 300px;
+  }
+  
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .history-table th,
+  .history-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .history-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .history-chart {
+    margin-top: 20px;
+    text-align: center;
+  }
+  

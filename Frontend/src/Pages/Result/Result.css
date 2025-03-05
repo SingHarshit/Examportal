@@ -1,0 +1,40 @@
+.results-container {
+    padding: 20px;
+    margin-left: 300px;
+  }
+  
+  .results-table {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background: #007bff;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  .overall-percentage {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .charts {
+    margin-top: 20px;
+  }
+  

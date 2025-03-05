@@ -1,0 +1,94 @@
+/* AdminPanel.css */
+
+/* 🌟 General Styling */
+.admin-panel {
+    max-width: 800px;
+    margin-left: 300px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* 🏷️ Heading */
+  .admin-container h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  /* 📋 Form Styling */
+  .admin-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .admin-container button {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .admin-container button:hover {
+    background: #218838;
+  }
+  
+  /* 📝 Questions List */
+  .question-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .question-card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .question-card p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .question-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question-card li {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  /* ✏️ Edit & 🗑 Delete Buttons */
+  .question-card button {
+    background: #007bff;
+    margin: 5px;
+  }
+  
+  .question-card button:hover {
+    background: #0056b3;
+  }
+  
+  .delete-btn {
+    background: #dc3545 !important;
+  }
+  
+  .delete-btn:hover {
+    background: #c82333 !important;
+  }
+  
